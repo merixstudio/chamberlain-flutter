@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dev",
+            "request": "launch",
+            "type": "dart",
+            "args":[
+                "--flavor", "dev",
+                "--dart-define", "INTERACTION_COUNTER_DISABED=true",
+                "--dart-define", "FLAVOR=dev",
+                "--dart-define", "TIMEZONE=Europe/Warsaw",
+                "--dart-define", "CALENDAR_ID=",
+                "--dart-define", "PIN_CODE=",
+            ]
+        },
+        {
+            "name": "emulator",
+            "request": "launch",
+            "type": "dart",
+            "args":[
+                "--flavor", "dev",
+                "--dart-define", "EMULATOR_HOST=192.168.0.0",
+                "--dart-define", "EMULATOR_ENABLED=true",
+                "--dart-define", "INTERACTION_COUNTER_DISABED=true",
+                "--dart-define", "FLAVOR=dev",
+                "--dart-define", "TIMEZONE=Europe/Warsaw",
+                "--dart-define", "CALENDAR_ID=",
+                "--dart-define", "PIN_CODE="
+            ]
+        },
+        {
+            "name": "prod",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args":[
+                "--flavor", "prod",
+                "--dart-define", "FLAVOR=prod",
+                "--dart-define", "TIMEZONE=Europe/Warsaw",
+                "--dart-define", "CALENDAR_ID=",
+                "--dart-define", "PIN_CODE=",
+            ]
+        },
+    ]
+}

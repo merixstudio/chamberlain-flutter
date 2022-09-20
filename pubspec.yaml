@@ -1,0 +1,51 @@
+name: chamberlain
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.3+5
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  #Bloc
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  #DI
+  get_it: ^7.2.0  
+  injectable: ^1.5.3
+  #Firebase
+  cloud_firestore: ^3.3.0
+  firebase_core: ^1.19.2
+  #Generation
+  json_annotation: ^4.6.0
+  freezed_annotation: ^2.1.0
+  #L10n
+  intl: ^0.17.0
+  #Networking
+  cached_network_image: ^3.2.1
+  #Tools
+  auto_route: ^4.2.1
+  kiosk_mode: ^0.2.1
+  package_info_plus: ^1.4.2
+  shared_preferences: ^2.0.15
+  flutter_secure_storage: ^5.0.2
+  uuid: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^4.2.0
+  build_runner: ^2.2.0
+  flutter_lints: ^2.0.0
+  freezed: ^2.1.0+1
+  injectable_generator: ^1.5.4
+  json_serializable: ^6.2.0
+
+flutter:  
+  generate: true
+  uses-material-design: true

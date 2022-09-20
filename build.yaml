@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      injectable_generator:injectable_builder:  
+        options:  
+          auto_register: true  
+          class_name_pattern:  
+            "Service$|Repository$|Bloc$|Cubit$|Storage$"
+          file_name_pattern: "_service$|_repository$|_bloc$|_cubit$|_storage$"
+      json_serializable:
+        options:
+          any_map: true
+          explicit_to_json: true
+          field_rename: none
+          include_if_null: false

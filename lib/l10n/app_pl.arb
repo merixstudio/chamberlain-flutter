@@ -1,0 +1,67 @@
+{
+    "durationMinutes": "{minutes, plural, =0{{minutes} minut} =1{{minutes} minutę} =2{{minutes} minuty} few{{minutes} minuty} many{{minutes} minut} other{{minutes} minut}}",
+    "@durationMinutes": {
+      "placeholders": {
+        "minutes": {
+          "type": "int"
+        }
+      }
+    },
+    "durationLessThanMinute": "Mniej niż minutę",
+    "homeBookEventButton": "Zarezerwuj",
+    "homeCancelEventButton": "Zakończ teraz",
+    "homeAdditionaInfoNextMeetingIn": "Kolejne spotkanie za:",
+    "homeAdditionaInfoFreeIn": "Będzie wolna za:",
+    "homeInvalidRoomContainerTitle": "Aby poprawnie funkcjonować, urządzenie musi mieć przypisaną salkę.\nPrzejdz do ustawień, aby wybrać odpowiednią.",
+    "homeInvalidRoomContainerButton": "Settings",
+
+    "roomStatusFree": "Wolna",
+    "roomStatusSoon": "Wkrótce zajęta",
+    "roomStatusBusy": "Zajęta",
+
+    "eventDetailsDialogDate": "{date}, godz. {startTime} - {endTime}",
+    "@eventDetailsDialogDate": {
+      "placeholders": {
+        "date": {
+          "type": "String"
+        },
+        "startTime": {
+            "type": "String"
+          },
+          "endTime": {
+            "type": "String"
+          }
+      }
+    },
+    "eventDetailsDialogMembersSectionTitle": "Goście ({people})",
+    "@eventDetailsDialogMembersSectionTitle": {
+      "placeholders": {
+        "people": {
+          "type": "int"
+        }
+      }
+    },
+    "eventDetailsDialogCancelButton": "Zakończ spotkanie teraz",
+
+    "newEventDialogSaveButton": "Zapisz",
+
+    "alertBottomSheetDefaultPrimaryButton": "Tak",
+    "alertBottomSheetDefaultSecondaryButton": "Nie",
+
+    "cancelEventAlertTitle": "Czy na pewno chcesz zakończyć to spotkanie wcześniej?",
+    "cancelEventPrimaryButton": "Tak, zakończ",
+    "cancelEventSecondaryButton": "Nie, rezygnuję",
+
+    "settingsAppBarTitle": "Admin",
+    "settingsSecuritySectionTitle": "Bezpieczeństwo",
+    "settingsKioskModeSwitchCellTitle": "Tryb kiosku",
+    "settingsDeviceInformationSectionTitle": "Informację o urządzeniu",
+    "settingsAddressIPTextCellTitle": "Adres IP",
+    "settingsAppInformationSectionTitle": "Informację o aplikacji",
+    "settingsAppVersionTextCellTitle": "Wersja aplikacji",
+    "settingsRoomSectionTitle": "Ustawienia salki",
+    "settingsRoomSelectCellTitle": "Wybierz salkę",
+    "settingsRoomSelectNoDataCellTitle": "Brak",
+    "pinAppBarTitle": "Wpisz kod PIN",
+    "pinInputsErrorLabel": "Błędny PIN"
+}
